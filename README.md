@@ -17,4 +17,4 @@ Mein Ziel: Kostenlose, gute Alternativen für alle bereitstellen.
 AI / Automatisierung / No-Code  
 
 ## 📊 Profilaufrufe
-![Profile Views](https://komarev.com/ghpvc/?username=EliasAI-a&style=flat-square&color=blue)
+https://komarev.com/ghpvc/?username=EliasAI-a&style=flat-square&color=blue)
