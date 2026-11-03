@@ -1,7 +1,5 @@
 <div align="center">
 
-<img src="assets/header.svg" alt="Elias, ariiezo" width="100%" />
-
 <a href="https://git.io/typing-svg">
   <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=19&duration=3200&pause=900&color=BE1FB6&center=true&vCenter=true&width=640&lines=I+build+the+Discord+bot+people+actually+configure;Bun+%C2%B7+TypeScript+%C2%B7+Next.js+%C2%B7+PostgreSQL;Self-hosted+on+Hetzner%2C+shipped+by+one+person;21+languages%2C+one+bot%2C+zero+filler" alt="Typing animation" />
 </a>
@@ -12,6 +10,16 @@
 [![Docs](https://img.shields.io/badge/Docs-24292f?style=for-the-badge&logo=gitbook&logoColor=white)](https://alphacloud.bot/docs)
 [![Panel](https://img.shields.io/badge/Web_Panel-5865F2?style=for-the-badge&logo=react&logoColor=white)](https://panel.alphacloud.bot)
 [![Discord](https://img.shields.io/badge/Support_Server-5865F2?style=for-the-badge&logo=discord&logoColor=white)](https://discord.gg/AHmrpMPDEM)
+
+<br/>
+
+![Servers](https://img.shields.io/badge/Servers-6%2C500%2B-be1fb6?style=for-the-badge&logo=discord&logoColor=white)
+![Members](https://img.shields.io/badge/Members-786K%2B-5865F2?style=for-the-badge&logo=discord&logoColor=white)
+![Languages](https://img.shields.io/badge/Languages-21-0ea5e9?style=for-the-badge)
+
+[![top.gg](https://img.shields.io/badge/top.gg-Vote_for_AlphaCloud-ff3366?style=for-the-badge&logo=topdotgg&logoColor=white)](https://top.gg/bot/1364273604300242944/vote)
+[![top.gg reviews](https://img.shields.io/badge/top.gg-Read_reviews-ff3366?style=for-the-badge&logo=topdotgg&logoColor=white)](https://top.gg/bot/1364273604300242944#reviews)
+[![Trustpilot](https://img.shields.io/badge/Trustpilot-Reviews-00b67a?style=for-the-badge&logo=trustpilot&logoColor=white)](https://www.trustpilot.com/review/alphacloud.bot)
 
 </div>
 
@@ -124,3 +132,5 @@ Games and tools, built with the same stack and the same care.
 <img src="https://komarev.com/ghpvc/?username=ariiezo&style=flat-square&color=be1fb6&label=" alt="Profile views" />
 
 </div>
+
+</details>
