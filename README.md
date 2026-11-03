@@ -118,6 +118,20 @@ Games and tools, built with the same stack and the same care.
 
 </div>
 
+## ✉️ Contact
+
+<div align="center">
+
+[![AlphaCloud](https://img.shields.io/badge/AlphaCloud-elias%40alphacloud.bot-be1fb6?style=for-the-badge)](mailto:elias@alphacloud.bot)
+[![Synapse Labs](https://img.shields.io/badge/Synapse_Labs-elias%40synapselabs.studio-0ea5e9?style=for-the-badge)](mailto:elias@synapselabs.studio)
+
+[![Contact form](https://img.shields.io/badge/Contact_form-alphacloud.bot%2Fcontact-24292f?style=for-the-badge&logo=cloudflare&logoColor=white)](https://alphacloud.bot/contact)
+[![Support server](https://img.shields.io/badge/Support_server-Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white)](https://discord.gg/AHmrpMPDEM)
+
+<sub>Bot, billing or partnership questions: AlphaCloud. Studio, team or mail setup: Synapse Labs. For quick help, the support server is fastest.</sub>
+
+</div>
+
 ## 🌍 Find me
 
 <div align="center">
@@ -134,5 +148,3 @@ Games and tools, built with the same stack and the same care.
 <img src="https://komarev.com/ghpvc/?username=ariiezo&style=flat-square&color=be1fb6&label=" alt="Profile views" />
 
 </div>
-
-</details>
