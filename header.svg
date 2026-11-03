@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="230" viewBox="0 0 1000 230" role="img" aria-label="Elias, ariiezo, founder and developer of AlphaCloud">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#be1fb6"/>
+      <stop offset="0.55" stop-color="#6d28d9"/>
+      <stop offset="1" stop-color="#2563eb"/>
+    </linearGradient>
+    <linearGradient id="fade" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#ffffff" stop-opacity="0.18"/>
+      <stop offset="1" stop-color="#ffffff" stop-opacity="0"/>
+    </linearGradient>
+    <clipPath id="round"><rect width="1000" height="230" rx="18"/></clipPath>
+    <style>
+      .t { font-family: -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; fill: #ffffff; }
+      .title { font-size: 58px; font-weight: 800; letter-spacing: -1px; }
+      .sub { font-size: 21px; font-weight: 500; opacity: 0.92; }
+      .tag { font-size: 15px; font-weight: 600; letter-spacing: 3px; opacity: 0.75; }
+      @keyframes drift { from { transform: translateX(0); } to { transform: translateX(-200px); } }
+      .w1 { animation: drift 14s linear infinite; }
+      .w2 { animation: drift 22s linear infinite; }
+    </style>
+  </defs>
+  <g clip-path="url(#round)">
+    <rect width="1000" height="230" fill="url(#bg)"/>
+    <rect width="1000" height="120" fill="url(#fade)"/>
+    <g class="w2" opacity="0.14" fill="#ffffff">
+      <path d="M0 175 Q 50 150 100 175 T 200 175 T 300 175 T 400 175 T 500 175 T 600 175 T 700 175 T 800 175 T 900 175 T 1000 175 T 1100 175 T 1200 175 V230 H0 Z"/>
+    </g>
+    <g class="w1" opacity="0.18" fill="#ffffff">
+      <path d="M0 198 Q 50 176 100 198 T 200 198 T 300 198 T 400 198 T 500 198 T 600 198 T 700 198 T 800 198 T 900 198 T 1000 198 T 1100 198 T 1200 198 V230 H0 Z"/>
+    </g>
+    <text class="t tag" x="500" y="62" text-anchor="middle">ALPHACLOUD  ·  SYNAPSE LABS</text>
+    <text class="t title" x="500" y="128" text-anchor="middle">Elias · ariiezo</text>
+    <text class="t sub" x="500" y="165" text-anchor="middle">Founder and developer of AlphaCloud</text>
+  </g>
+</svg>
