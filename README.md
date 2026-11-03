@@ -1,5 +1,7 @@
 <div align="center">
 
+<img src="header.svg" alt="Elias, ariiezo" width="100%" />
+
 <a href="https://git.io/typing-svg">
   <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=19&duration=3200&pause=900&color=BE1FB6&center=true&vCenter=true&width=640&lines=I+build+the+Discord+bot+people+actually+configure;Bun+%C2%B7+TypeScript+%C2%B7+Next.js+%C2%B7+PostgreSQL;Self-hosted+on+Hetzner%2C+shipped+by+one+person;21+languages%2C+one+bot%2C+zero+filler" alt="Typing animation" />
 </a>
