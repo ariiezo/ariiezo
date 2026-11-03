@@ -1,36 +1,16 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1000" height="230" viewBox="0 0 1000 230" role="img" aria-label="Elias, ariiezo, founder and developer of AlphaCloud">
   <defs>
-    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0" stop-color="#be1fb6"/>
-      <stop offset="0.55" stop-color="#6d28d9"/>
-      <stop offset="1" stop-color="#2563eb"/>
-    </linearGradient>
-    <linearGradient id="fade" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0" stop-color="#ffffff" stop-opacity="0.18"/>
-      <stop offset="1" stop-color="#ffffff" stop-opacity="0"/>
-    </linearGradient>
-    <clipPath id="round"><rect width="1000" height="230" rx="18"/></clipPath>
     <style>
-      .t { font-family: -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; fill: #ffffff; }
-      .title { font-size: 58px; font-weight: 800; letter-spacing: -1px; }
-      .sub { font-size: 21px; font-weight: 500; opacity: 0.92; }
-      .tag { font-size: 15px; font-weight: 600; letter-spacing: 3px; opacity: 0.75; }
-      @keyframes drift { from { transform: translateX(0); } to { transform: translateX(-200px); } }
-      .w1 { animation: drift 14s linear infinite; }
-      .w2 { animation: drift 22s linear infinite; }
+      @font-face { font-family: 'Archivo Display'; font-weight: 800; src: url(data:font/woff;base64,d09GRgABAAAAAAe8ABAAAAAACZQAAgBCAAAAAAAAAAAAAAAAAAAAAAAAAABHREVGAAAGoAAAABYAAAAWABEACkdQT1MAAAa4AAAAkAAAAQQsziUbR1NVQgAAB0gAAAApAAAAKrj6uPRPUy8yAAAEwAAAAEYAAABgYd1eR1NUQVQAAAd0AAAARwAAAExevUCcY21hcAAABQgAAABSAAAAdAHHAohnYXNwAAAGmAAAAAgAAAAIAAAAEGdseWYAAAFsAAACnwAAAxRK5tFvaGVhZAAABDwAAAA2AAAANi7NiJ1oaGVhAAAEoAAAACAAAAAkCCcDdWhtdHgAAAR0AAAALAAAACwYuwIYbG9jYQAABCQAAAAYAAAAGAQpBSFtYXhwAAAEDAAAABgAAAAgABMAaG5hbWUAAAVkAAABHwAAAho0rFT9cG9zdAAABoQAAAATAAAAIP9vACxwcmVwAAAFXAAAAAcAAAAHaAaMhXicXdJNTxNBGAfwmSndFvq67c62bKFlZ9ft6xa6291S+rIgAdQIQtFiTAkmSJSYeEASIu1FT94MQuLRGC/cOFS9eOMzkJgY480PYDDeWp2CRmImmcs8M/Ob/zwAghoAqIOOgAuAx6yI/44aetuV4JvuGvyGjg52Xjw9AAjIv36gzygCcsACYIVkkZGvIt3IK4pEGAZjSVGMvGnqGs9jzPG6jhlGIooSl7yooFWRYfTKOJ7vqAtlYm2/visYiagptiGcfb7eeDbD+sc8E0SdiDJOYXrZHhrPj9S3xiNpt5eUs9UrsgsPSf4BPuDsc9hH5xJk3vrE4k3GEySYJ4FtV0gOx/yiwPFOqk1S7QeqHQIKADPkok2MIp16CjrnRTYxn0U9P3xy/1Vtaf/eg73r3QySp0eFMZmH79Wb218gH5DGhjOW7C7trjWa5dJOI5kqRNw4Gsxe0yNwMSwLnrBKowSTAIBTdAJswAHAsqFjG6uzk+12G91utTqHyNf5DuCFKpp6bx2ddDJ/zB+p2QfE/8wcw8Q10zT+pU1zhFsb+0tL+xvnc24qFpvKnc3uSrOxulsu7642mpUWsVKDaYsQKz2Ysgg4vx8eoyEQPLs/pNNv1PgQlogXYTz50u30qSUSlDzzJDfiQ76VmBpm7HtY0YZ/0t29PmhR5eWesdcFZkFnONwLlQopMJ61nbWGFkWY4xzSOZqeTc2hqA3T2OGN4sNbGoTvIBTNmFBM6HUjtVCR1cXNirm+kIXtYVVwKbKQnkuqd65m1NojNxevpvucNsQgLLgZjobicjqwXEyNTiUC7KVivK8fMSzvsjn93gA7YHewpKrlZ5MBahbo59SRD/TTFxtQNEQMRSzAWPcUxbpfoVqF9Wape9gCvwGW25YDAHicY2BkYGDgZkhnYGcAAUYGNAAADCkAfAAAAAAAFgBtAKgAuwDHAPsBGgF0AYoBigABAAAAAgBC3iG0iV8PPPUIAwPoAAAAANv9HLEAAAAA5wIn7v8h/twFlQP9AAAABgACAAAAAAAAApgAUgMxAFIC3AAkAt8AKQEzAEABMwBAAuQAKQHLAEACoQAkAnEAGgEQAAB4nGNgZGBgzvuvx8DAeuG/4r9s1qkMQBEUwA0AiuwFpHicY2BhamVWYGBjYGDaw9TFwMDQA6EZ7zIYMfxiQAWMyBx/Xz9PhgMMCgxVzHn/9RgYWHwYZ8HUMPExrQNSCgzMAGCdC9oAAHicY2BgYGJgYGAGYhEgyQimWRgSwLQAUISFQYHBlSGRIZUhkyGHIZ+hmKHq/3+gLKpoEUj0/6v/e/4v/D/v/+z/M/9P/z/1fz/YPAwAAIgYGkAAALgB/4WwBI0AeJyFkM1OwlAQhb8raIIhLlzipiujCxBZuNAVGk1Y+JNiYOOm/KTUQGtaMOKD+Aw+ik/g83i4vU0gLMzN7Zwzc+bM9AJVvihhyhXgWzfHBk8sxzsc8ONwiQt+HS6vaXapmarDe3jmOMdG/ubOYcO+8R2ucGheHK5JEzt8JM0nNyS8sSQlImTCXJNaNO31eFZmrNhWfSgc8S69x5N4wqtqQ9vRZqE4US4lEz+xTnM5Z1xyphOqd6VYMKChroSZso/6xqoMlM+oa95SPWNVNieebm3QlWomdi02ZYQvHsplSiBlSzOaOudcacY9D3SENj3qWx498dX+kXhs36Fw+a+zL168X19oZP/1lg/FVBsVuo54IBTJzbdvEBD/AUPOTeYAeJxjYGYAg/85DDoMWAAAJbUBmwAAAQAB//8ADwABAAAADAAAAAAAAAACAAEAAQAJAAEAAHicfY4hDsJQEETf/pbSVlSikEgUZyAoJBcgAQWpID0GR0XVIpb5W0QFYZP/szM7szsY0LJhR9ofjie6+3no6SjF406e2+366KlzF68kCSX5tkKTNrFiLZRYijdaf+m3mFxCMfCk0nRW0vwtH338yb+zd+Y2bTaK2F/TxOXme32qQhkWkS8nt2AsuOoDZdkXKHicY2BkYGDgYlBj0GBgcnHzCWHgy0ksyWOQYGABijP8/88ABwBtlwVdAAAAeJwVijEKgEAQAye3FtpZWGnjA/yUINwJlgv3fXMpEpgMQswEsFHcF6U/2STotaVHb96fdr8TK8NHS5x2w6zoYMT0Bw4BBfUA) format('woff'); }
+      .title { font-family: 'Archivo Display', 'Arial Black', Impact, sans-serif; font-weight: 800; font-size: 66px; letter-spacing: -1px; }
+      .sans { font-family: -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; }
     </style>
   </defs>
-  <g clip-path="url(#round)">
-    <rect width="1000" height="230" fill="url(#bg)"/>
-    <rect width="1000" height="120" fill="url(#fade)"/>
-    <g class="w2" opacity="0.14" fill="#ffffff">
-      <path d="M0 175 Q 50 150 100 175 T 200 175 T 300 175 T 400 175 T 500 175 T 600 175 T 700 175 T 800 175 T 900 175 T 1000 175 T 1100 175 T 1200 175 V230 H0 Z"/>
-    </g>
-    <g class="w1" opacity="0.18" fill="#ffffff">
-      <path d="M0 198 Q 50 176 100 198 T 200 198 T 300 198 T 400 198 T 500 198 T 600 198 T 700 198 T 800 198 T 900 198 T 1000 198 T 1100 198 T 1200 198 V230 H0 Z"/>
-    </g>
-    <text class="t tag" x="500" y="62" text-anchor="middle">ALPHACLOUD  ·  SYNAPSE LABS</text>
-    <text class="t title" x="500" y="128" text-anchor="middle">Elias · ariiezo</text>
-    <text class="t sub" x="500" y="165" text-anchor="middle">Founder and developer of AlphaCloud</text>
-  </g>
+  <rect x="0.5" y="0.5" width="999" height="229" rx="18" fill="#0f0d11" stroke="#2a2430"/>
+  <rect x="60" y="44" width="132" height="28" rx="14" fill="rgba(240,138,232,0.14)" stroke="rgba(240,138,232,0.45)"/>
+  <text class="sans" x="126" y="63" text-anchor="middle" font-size="12" font-weight="700" letter-spacing="2.4" fill="#f08ae8">ALPHACLOUD</text>
+  <text class="title" x="58" y="136" fill="#f1edf2">Elias <tspan fill="#f08ae8">ariiezo</tspan></text>
+  <text class="sans" x="60" y="172" font-size="21" font-weight="500" fill="#a8a0ad">Founder and developer of AlphaCloud</text>
+  <text class="sans" x="60" y="202" font-size="14" font-weight="500" letter-spacing="0.4" fill="#6e6674">alphacloud.bot   ·   synapselabs.studio</text>
+  <svg x="735" y="28" xmlns="http://www.w3.org/2000/svg" class="alfi" viewBox="0 0 20 18" width="190" height="171" shape-rendering="crispEdges" overflow="visible" aria-hidden="true"><style>@keyframes alfi-bob{0%,49.9%{transform:none}50%,100%{transform:translateY(-1px)}}@keyframes alfi-blink{0%,93%,100%{opacity:1}94%,98%{opacity:0}}@keyframes alfi-rise{0%{transform:translateY(1px);opacity:0}25%{opacity:1}100%{transform:translateY(-1px);opacity:0}}@keyframes alfi-twinkle{0%,100%{opacity:1}50%{opacity:.15}}@keyframes alfi-rain{0%{transform:translateY(0);opacity:0}15%{opacity:1}100%{transform:translateY(2.5px);opacity:0}}@keyframes alfi-flash{0%,60%{opacity:1}61%,100%{opacity:.2}}@media (prefers-reduced-motion:reduce){.alfi,.alfi *{animation:none!important}}</style><g style="animation:alfi-bob 1.6s infinite"><path d="M7 3h4v1h-4zM5 4h8v1h-8zM14 4h3v1h-3zM4 5h14v1h-14zM2 6h17v1h-17zM1 7h18v1h-18zM1 8h18v1h-18zM1 9h18v1h-18zM1 10h18v1h-18z" fill="#FFFFFF"/><path d="M2 11h16v1h-16zM5 12h2v1h-2zM13 12h2v1h-2z" fill="#CFC9F2"/><path d="M6 7h1v1h-1zM13 7h1v1h-1zM5 8h1v1h-1zM7 8h1v1h-1zM12 8h1v1h-1zM14 8h1v1h-1zM8 9h1v1h-1zM11 9h1v1h-1zM9 10h2v1h-2z" fill="#1E1650"/><path d="M3 9h2v1h-2zM15 9h2v1h-2z" fill="#FF8A7A"/><path d="M2 1h1v1h-1zM1 2h3v1h-3zM2 3h1v1h-1z" fill="#6EF0C2" style="animation:alfi-twinkle 1.4s steps(2) infinite"/><path d="M17 1h1v1h-1z" fill="#6EF0C2" style="animation:alfi-twinkle 1.4s steps(2) -0.7s infinite"/></g></svg>
 </svg>
